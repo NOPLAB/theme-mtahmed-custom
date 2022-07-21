@@ -10,9 +10,9 @@ function fish_prompt
   if [ -n "$SSH_CONNECTION" ]
     printf '%s | ' (hostname | head -c 10)
   end
-  if string match -q "/home/nop***" (string escape (pwd))
+  if string match -q (string escape $HOME)"*" (string escape (pwd))
     printf "~"
-    printf (string replace (string escape "/home/nop") "" (string escape (pwd)))
+    printf (string replace (string escape $HOME) "" (string escape (pwd)))
   else
     printf (basename (pwd))
   end
