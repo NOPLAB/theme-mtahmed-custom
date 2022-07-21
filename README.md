@@ -14,5 +14,6 @@ Minimal theme.
 
 - Exit code of the previous command
 
-#### Install (Fisher)
+#### Install
+Use Fisher  
 ```fisher install NOPLAB/theme-mtahmed-custom```
