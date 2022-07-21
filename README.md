@@ -14,6 +14,9 @@ Minimal theme.
 
 - Exit code of the previous command
 
+### What has changed?
+- In the home directory and under, `~` appears.
+
 #### Install
 Use Fisher  
 ```fisher install NOPLAB/theme-mtahmed-custom```
